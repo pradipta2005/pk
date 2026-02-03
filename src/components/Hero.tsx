@@ -41,7 +41,7 @@ export default function Hero() {
                     Data Scientist <span className="font-serif italic text-gold mx-2 text-lg">&</span> Analytics Engineer
                 </motion.h2>
 
-                <div className="text-6xl md:text-8xl lg:text-9xl mb-8 relative">
+                <div className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl mb-8 relative">
                     {/* Glow effect behind text for better visibility */}
                     <div className="absolute inset-0 bg-gold/5 blur-3xl rounded-full -z-10" />
                     <SignatureName />

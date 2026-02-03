@@ -29,7 +29,7 @@ export default function SignatureName() {
     }, [isHovered]);
 
     return (
-        <div className="flex items-center justify-center gap-4 md:gap-6 relative">
+        <div className="flex flex-wrap items-center justify-center gap-2 md:gap-6 relative">
             {/* Pradipta / Precision Container */}
             <div
                 className="relative cursor-pointer group"
@@ -103,7 +103,7 @@ export default function SignatureName() {
                         animate={{ opacity: 1, x: 0 }}
                         exit={{ opacity: 0, x: 20 }}
                         transition={{ duration: 0.5, ease: "circOut" }}
-                        className="font-serif font-bold text-gold ml-3 relative z-10"
+                        className="font-serif font-bold text-gold relative z-10"
                         style={{
                             textShadow: "0 0 30px rgba(255,215,0,0.4)"
                         }}

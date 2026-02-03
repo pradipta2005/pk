@@ -6,7 +6,7 @@ import CustomCursor from "@/components/ui/CustomCursor";
 import Preloader from "@/components/ui/Preloader";
 
 export const metadata: Metadata = {
-  title: "Golden Intelligence | Data Scientist & Analytics Engineer",
+  title: "Pradipta Khan| Data Scientist & Analytics Engineer",
   description: "An ultra-premium, storytelling portfolio for a Data Scientist. Golden Intelligence.",
 };
 
